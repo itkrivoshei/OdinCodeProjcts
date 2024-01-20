@@ -6,7 +6,7 @@ This project is a part of the curriculum for [The Odin Project](https://www.theo
 
 ## 🚀 Quick Start
 
-To run the project, execute the following command:
+To run the project, install node and execute the following command:
 
 ```bash
 node mergeSort.js
