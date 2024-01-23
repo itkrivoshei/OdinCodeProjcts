@@ -1,4 +1,4 @@
-# ✅ OdinRecursion Project
+# 🔁 OdinRecursion Project
 
 ## 📌 Introduction
 
