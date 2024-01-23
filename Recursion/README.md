@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-This project is a part of the curriculum for [The Odin Project](https://www.theodinproject.com/lessons/javascript-recursion), focusing on implementing recursion concepts in JavaScript.
+This project is a part of the curriculum for <a href="https://www.theodinproject.com/lessons/javascript-recursion" target="_blank">The Odin Project</a>, focusing on implementing recursion concepts in JavaScript.
 
 ## 🚀 Quick Start
 
@@ -48,4 +48,4 @@ The project covers two main assignments:
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](../LICENSE).
+This project is open-source and available under the <a href="../LICENSE" target="_blank">MIT License</a>.
