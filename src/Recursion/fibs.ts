@@ -7,5 +7,3 @@ function fibs(n: number): number[] {
 
   return result;
 }
-
-console.log(fibs(21));
