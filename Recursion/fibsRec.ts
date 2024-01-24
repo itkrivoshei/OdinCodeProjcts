@@ -1,4 +1,4 @@
-function fibsRec(n) {
+function fibsRec(n: number): number[] {
   if (n <= 0) return [];
   if (n === 1) return [0];
   if (n === 2) return [0, 1];
@@ -9,5 +9,3 @@ function fibsRec(n) {
 
   return arr;
 }
-
-console.log(fibsRec(21));
