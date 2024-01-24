@@ -46,4 +46,4 @@ The project covers two main assignments:
 
 ## 📄 License
 
-This project is open-source and available under the <a href="../LICENSE" target="_blank">MIT License</a>.
+This project is open-source and available under the <a href="../../LICENSE" target="_blank">MIT License</a>.
