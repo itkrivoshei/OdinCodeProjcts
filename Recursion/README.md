@@ -1,7 +1,5 @@
 # 🔁 Recursion Project
 
-## 📌 Introduction
-
 This project is a part of the curriculum for <a href="https://www.theodinproject.com/lessons/javascript-recursion" target="_blank">The Odin Project</a>, focusing on implementing recursion concepts in JavaScript.
 
 ## 🚀 Quick Start
