@@ -7,7 +7,7 @@
     "^.+\\.ts$": "ts-jest"
   },
   "collectCoverage": true,
-  "coverageDirectory": "coverage",
+  "coverageDirectory": "<rootDir>/coverage",
   "coverageReporters": ["json", "lcov", "text", "clover"],
   "coverageThreshold": {
     "global": {
