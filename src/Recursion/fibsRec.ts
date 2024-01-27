@@ -1,4 +1,4 @@
-function fibsRec(n: number): number[] {
+export function fibsRec(n: number): number[] {
   if (n <= 0) return [];
   if (n === 1) return [0];
   if (n === 2) return [0, 1];
