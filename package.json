@@ -4,7 +4,7 @@
   "description": "A repository containing various coding projects from [The Odin Project](https://github.com/TheOdinProject), focusing on different concepts in JavaScript without web demo implementation, only code.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --config .config/jest.config.json"
   },
   "keywords": [],
   "author": "",
