@@ -1,4 +1,4 @@
-function fibs(n: number): number[] {
+export function fibs(n: number): number[] {
   if (n < 2) return n === 0 ? [] : [0];
 
   const result: number[] = [0, 1];
