@@ -1,4 +1,4 @@
-function mergeSort(arr: number[]): number[] {
+export function mergeSort(arr: number[]): number[] {
   if (arr.length < 2) return arr;
 
   const middle = Math.floor(arr.length / 2);
