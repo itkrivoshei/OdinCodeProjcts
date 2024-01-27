@@ -2,12 +2,9 @@
   "preset": "ts-jest",
   "testEnvironment": "node",
   "roots": ["<rootDir>/src"],
-  "testMatch": [
-    "**/__tests__/**/*.+(ts|tsx)",
-    "**/?(*.)+(spec|test).+(ts|tsx)"
-  ],
+  "testMatch": ["**/tests/**/*.test.ts"],
   "transform": {
-    "^.+\\.(ts|tsx)$": "ts-jest"
+    "^.+\\.ts$": "ts-jest"
   },
   "collectCoverage": true,
   "coverageDirectory": "coverage",
@@ -23,10 +20,10 @@
   "moduleNameMapper": {
     "^@src/(.*)$": "<rootDir>/src/$1"
   },
-  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "moduleFileExtensions": ["ts", "js", "json", "node"],
   "globals": {
     "ts-jest": {
-      "tsconfig": "tsconfig.json"
+      "tsconfig": "<rootDir>/.config/tsconfig.json"
     }
   }
 }
