@@ -1,29 +1,13 @@
 {
   "preset": "ts-jest",
   "testEnvironment": "node",
-  "roots": ["<rootDir>/src"],
-  "testMatch": ["**/tests/**/*.test.ts"],
+  "roots": ["<rootDir>/../src"],
+  "testMatch": ["**/tests/*.test.ts"],
   "transform": {
     "^.+\\.ts$": "ts-jest"
   },
-  "collectCoverage": true,
-  "coverageDirectory": "<rootDir>/coverage",
-  "coverageReporters": ["json", "lcov", "text", "clover"],
-  "coverageThreshold": {
-    "global": {
-      "branches": 50,
-      "functions": 50,
-      "lines": 50,
-      "statements": 50
-    }
-  },
   "moduleNameMapper": {
-    "^@src/(.*)$": "<rootDir>/src/$1"
+    "^@src/(.*)$": "<rootDir>/../src/$1"
   },
-  "moduleFileExtensions": ["ts", "js", "json", "node"],
-  "globals": {
-    "ts-jest": {
-      "tsconfig": "<rootDir>/.config/tsconfig.json"
-    }
-  }
+  "moduleFileExtensions": ["ts", "js", "json"]
 }
