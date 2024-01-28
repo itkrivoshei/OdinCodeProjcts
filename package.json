@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest --config .config/jest.config.json",
+    "test": "jest --config .config/jest.config.json --verbose",
     "lint": "eslint . --config .config/.eslintrc.json",
     "format": "prettier --write --config .config/.prettierrc 'src/**/*.ts'"
   },
