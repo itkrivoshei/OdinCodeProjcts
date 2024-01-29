@@ -1,8 +1,8 @@
-import { LinkedList } from "../linkedList";
+import { LinkedList } from '../linkedList';
 
-describe("LinkedList", () => {
-  describe("append", () => {
-    it("should append a value to an empty list", () => {
+describe('LinkedList', () => {
+  describe('append', () => {
+    it('should append a value to an empty list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -11,7 +11,7 @@ describe("LinkedList", () => {
       expect(list.getTail()?.value).toBe(1);
     });
 
-    it("should append a value to a non-empty list", () => {
+    it('should append a value to a non-empty list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -21,8 +21,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("prepend", () => {
-    it("should prepend a value to an empty list", () => {
+  describe('prepend', () => {
+    it('should prepend a value to an empty list', () => {
       const list = new LinkedList<number>();
 
       list.prepend(1);
@@ -30,7 +30,7 @@ describe("LinkedList", () => {
       expect(list.getHead()?.value).toBe(1);
     });
 
-    it("should prepend a value to a non-empty list", () => {
+    it('should prepend a value to a non-empty list', () => {
       const list = new LinkedList<number>();
 
       list.prepend(1);
@@ -40,8 +40,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("size", () => {
-    it("should return the correct size of the list", () => {
+  describe('size', () => {
+    it('should return the correct size of the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -50,8 +50,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("at", () => {
-    it("should return the node at a given index", () => {
+  describe('at', () => {
+    it('should return the node at a given index', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -59,7 +59,7 @@ describe("LinkedList", () => {
       expect(list.at(1)?.value).toBe(2);
     });
 
-    it("should return null for an invalid index", () => {
+    it('should return null for an invalid index', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -67,8 +67,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("pop", () => {
-    it("should remove the last element from the list", () => {
+  describe('pop', () => {
+    it('should remove the last element from the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -78,7 +78,7 @@ describe("LinkedList", () => {
       expect(list.getTail()?.value).toBe(1);
     });
 
-    it("should handle popping an empty list", () => {
+    it('should handle popping an empty list', () => {
       const list = new LinkedList<number>();
 
       list.pop();
@@ -86,8 +86,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("contains", () => {
-    it("should return true if the value is in the list", () => {
+  describe('contains', () => {
+    it('should return true if the value is in the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -95,7 +95,7 @@ describe("LinkedList", () => {
       expect(list.contains(2)).toBeTruthy();
     });
 
-    it("should return false if the value is not in the list", () => {
+    it('should return false if the value is not in the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -103,8 +103,8 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("find", () => {
-    it("should return the index of the value if it is in the list", () => {
+  describe('find', () => {
+    it('should return the index of the value if it is in the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -112,7 +112,7 @@ describe("LinkedList", () => {
       expect(list.find(2)).toBe(1);
     });
 
-    it("should return null if the value is not in the list", () => {
+    it('should return null if the value is not in the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -120,24 +120,24 @@ describe("LinkedList", () => {
     });
   });
 
-  describe("toString", () => {
-    it("should return a string representation of the list", () => {
+  describe('toString', () => {
+    it('should return a string representation of the list', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
       list.append(2);
-      expect(list.toString()).toBe("( 1 ) -> ( 2 ) -> null");
+      expect(list.toString()).toBe('( 1 ) -> ( 2 ) -> null');
     });
 
     it('should return "null" for an empty list', () => {
       const list = new LinkedList<number>();
 
-      expect(list.toString()).toBe("null");
+      expect(list.toString()).toBe('null');
     });
   });
 
-  describe("insertAt", () => {
-    it("should insert a value at a given index", () => {
+  describe('insertAt', () => {
+    it('should insert a value at a given index', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -146,15 +146,15 @@ describe("LinkedList", () => {
       expect(list.at(1)?.value).toBe(2);
     });
 
-    it("should throw an error for an invalid index", () => {
+    it('should throw an error for an invalid index', () => {
       const list = new LinkedList<number>();
 
-      expect(() => list.insertAt(2, 3)).toThrow("Index out of bounds");
+      expect(() => list.insertAt(2, 3)).toThrow('Index out of bounds');
     });
   });
 
-  describe("removeAt", () => {
-    it("should remove the element at a given index", () => {
+  describe('removeAt', () => {
+    it('should remove the element at a given index', () => {
       const list = new LinkedList<number>();
 
       list.append(1);
@@ -164,10 +164,10 @@ describe("LinkedList", () => {
       expect(list.getHead()?.value).toBe(2);
     });
 
-    it("should throw an error for an invalid index", () => {
+    it('should throw an error for an invalid index', () => {
       const list = new LinkedList<number>();
 
-      expect(() => list.removeAt(1)).toThrow("Index out of bounds");
+      expect(() => list.removeAt(1)).toThrow('Index out of bounds');
     });
   });
 });
