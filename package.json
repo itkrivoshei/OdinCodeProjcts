@@ -4,7 +4,6 @@
   "description": "A repository containing various coding projects from [The Odin Project](https://github.com/TheOdinProject), focusing on different concepts in JavaScript without web demo implementation, only code.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
     "test": "jest --config .config/jest.config.json --verbose",
     "lint": "eslint . --ext .ts --config .config/.eslintrc.json",
     "format": "prettier --write --config .config/.prettierrc '**.{ts,md,json,js,yml}'"
