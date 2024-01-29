@@ -33,7 +33,9 @@ describe("mergeSort", () => {
     const largeArray = Array.from({ length: 1000 }, () =>
       Math.floor(Math.random() * 1000)
     );
+
     const sortedArray = [...largeArray].sort((a, b) => a - b);
+
     expect(mergeSort(largeArray)).toEqual(sortedArray);
   });
 });
