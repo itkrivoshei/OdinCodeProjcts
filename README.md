@@ -4,10 +4,10 @@ A repository containing various coding projects from [The Odin Project](https://
 
 ## 📁 Project Overview
 
-| Project Name   | Project Link                     | Odin Project Assignment                                                       |
-| -------------- | -------------------------------- | ----------------------------------------------------------------------------- |
-| 🔄 Recursion   | [Code](./src/Recursion)     | [Assignment](https://www.theodinproject.com/lessons/javascript-recursion)          |
-| 🔗 LinkedLists | [Code](./src/LinkedLists)   | [Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists)       |
+| Project Name   | Project Link              | Odin Project Assignment                                                      |
+| -------------- | ------------------------- | ---------------------------------------------------------------------------- |
+| 🔄 Recursion   | [Code](./src/Recursion)   | [Assignment](https://www.theodinproject.com/lessons/javascript-recursion)    |
+| 🔗 LinkedLists | [Code](./src/LinkedLists) | [Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists) |
 
 Each folder contains a detailed `README.md` describing the specific project.
 
