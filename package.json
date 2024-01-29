@@ -7,7 +7,7 @@
     "build": "tsc",
     "test": "jest --config .config/jest.config.json --verbose",
     "lint": "eslint . --ext .ts --config .config/.eslintrc.json",
-    "format": "prettier --write --config .config/.prettierrc 'src/**/*.ts'"
+    "format": "prettier --write --config .config/.prettierrc '**.{ts,md,json,js,yml}'"
   },
   "keywords": [],
   "author": "",
