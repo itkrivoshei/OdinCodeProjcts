@@ -1,6 +1,6 @@
 # Security Policy 🛡️
 
-Only the latest version of `OdinCodeProjcts` is eligible for security updates. 🔄
+Only the latest version of [OdinCodeProjcts](https://github.com/itkrivoshei/OdinCodeProjcts/tree/main) is eligible for security updates. 🔄
 
 ## Reporting a Vulnerability
 
