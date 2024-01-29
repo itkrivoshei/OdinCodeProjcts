@@ -25,12 +25,20 @@ jobs:
 
       - name: Run linter
         run: npm run lint
+        env:
+          ESLINT_CONFIG: .config/.eslintrc.json
 
       - name: Run formatter
         run: npm run format
+        env:
+          PRETTIER_CONFIG: .config/.prettierrc
 
       - name: Build project
         run: npm run build
+        env:
+          TS_NODE_PROJECT: .config/tsconfig.json
 
       - name: Run tests
         run: npm test
+        env:
+          JEST_CONFIG: .config/jest.config.json
