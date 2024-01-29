@@ -54,7 +54,7 @@ export class LinkedList<T> {
 
     for (let i = 0; i < index; i++) {
       if (!currentNode)
-        throw new Error("List is shorter than its length property indicates");
+        throw new Error('List is shorter than its length property indicates');
 
       currentNode = currentNode.next;
     }
@@ -121,14 +121,14 @@ export class LinkedList<T> {
       currentNode = currentNode.next;
     }
 
-    parts.push("null");
+    parts.push('null');
 
-    return parts.join(" -> ");
+    return parts.join(' -> ');
   }
 
   public insertAt(value: T, index: number): void {
     if (index < 0 || index > this.length)
-      throw new Error("Index out of bounds");
+      throw new Error('Index out of bounds');
 
     const newNode = new LinkedListNode(value);
 
@@ -143,7 +143,7 @@ export class LinkedList<T> {
 
       for (let i = 0; i < index; i++) {
         if (current === null)
-          throw new Error("Unexpected null value encountered in the list");
+          throw new Error('Unexpected null value encountered in the list');
 
         previous = current;
         current = current.next;
@@ -161,7 +161,7 @@ export class LinkedList<T> {
 
   public removeAt(index: number): void {
     if (index < 0 || index >= this.length)
-      throw new Error("Index out of bounds");
+      throw new Error('Index out of bounds');
 
     if (index === 0) {
       this.head = this.head?.next ?? null;
@@ -173,7 +173,7 @@ export class LinkedList<T> {
 
       for (let i = 0; i < index; i++) {
         if (current === null)
-          throw new Error("Unexpected null value encountered in the list");
+          throw new Error('Unexpected null value encountered in the list');
 
         previous = current;
         current = current.next;
