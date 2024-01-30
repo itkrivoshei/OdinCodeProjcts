@@ -31,17 +31,18 @@ npm i
 
 To maintain high code quality, this repository uses:
 
-- **Testing**: `npm test` - Runs Jest for all unit tests.
-- **Linting**: `npm run lint` - Lints the codebase with ESLint.
-- **Formatting**: `npm run format` - Formats code using Prettier.
+- **Testing**: Jest for unit tests ([Jest Config](.config/jest.config.json)). Run with `npm test`.
+- **Linting**: ESLint for code analysis ([ESLint Config](.config/.eslintrc.json)). Run with `npm run lint`.
+- **Formatting**: Prettier for code formatting ([Prettier Config](.config/.prettierrc)). Run with `npm run format`.
+- **TypeScript Config**: Ensuring type safety ([TypeScript Config](tsconfig.json)).
 
 ## ⚙️ Continuous Integration
 
 GitHub Actions are configured to perform automated checks on pushes and pull requests, running the linter, formatter, and tests as outlined in [node.js.yml](.github/workflows/node.js.yml).
 
-## 📝 How to Contribute
+## 📝 How to Contribute & Security
 
-Interested in contributing? Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+Interested in contributing? Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to proceed. For security issues, refer to the [SECURITY.md](SECURITY.md) for reporting vulnerabilities.
 
 ## 📄 License
 
