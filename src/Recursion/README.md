@@ -40,4 +40,4 @@ The project covers two main assignments:
 
 ---
 
-### ℹ️ See Main [README](../../README.md) for more info.
+### ℹ️ See Main [README](../../) for more info.
