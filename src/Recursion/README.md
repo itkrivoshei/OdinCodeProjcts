@@ -21,13 +21,15 @@ This project is a part of the curriculum for [The Odin Project](https://www.theo
    npm test src/Recursion/tests/fibs.test.ts
    ```
 
-## 🧬 Code Overview
+## 🧬 Function Implementations
 
-- [**mergeSort**](mergeSort.ts): A recursive divide-and-conquer sorting algorithm.
-- [**fibsRec**](fibsRec.ts): Generates a Fibonacci sequence using recursion.
-- [**fibs**](fibs.ts): An iterative approach to generating a Fibonacci sequence.
+| Function Name                 | Description                                            | Input           | Output     |
+| ----------------------------- | ------------------------------------------------------ | --------------- | ---------- |
+| [**mergeSort**](mergeSort.ts) | 🔄 Sorts an array using the merge sort algorithm.      | `arr: number[]` | `number[]` |
+| [**fibsRec**](fibsRec.ts)     | 🔢 Recursively generates Fibonacci sequence up to `n`. | `n: number`     | `number[]` |
+| [**fibs**](fibs.ts)           | 🔢 Iteratively generates Fibonacci sequence up to `n`. | `n: number`     | `number[]` |
 
-Test suites for these implementations can be found in the [tests directory](tests/).
+Test suites for these functions can be found in the [tests directory](tests/).
 
 ## [📝 Assignments](https://www.theodinproject.com/lessons/javascript-recursion)
 
