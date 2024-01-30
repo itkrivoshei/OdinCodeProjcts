@@ -42,4 +42,4 @@ The project involves implementing a `LinkedList` and `Node` class with methods t
 
 ---
 
-### ℹ️ See Main [README](../../README.md) for more info.
+### ℹ️ See Main [README](../../) for more info.
