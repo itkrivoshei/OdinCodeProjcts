@@ -1,24 +1,48 @@
 # 🧑‍💻 OdinCodeProjects
 
-A repository containing various coding projects from [The Odin Project](https://github.com/TheOdinProject), focusing on different concepts in JavaScript without web demo implementation, only code.
+Welcome to the OdinCodeProjects repository, featuring various coding projects I've developed from [The Odin Project](https://www.theodinproject.com). These projects are focused on different concepts in JavaScript/TypeScript.
 
-## 📁 Project Overview
+## 🗂 Project Directory
 
-| Project Name   | Project Link              | Odin Project Assignment                                                      |
-| -------------- | ------------------------- | ---------------------------------------------------------------------------- |
-| 🔄 Recursion   | [Code](./src/Recursion)   | [Assignment](https://www.theodinproject.com/lessons/javascript-recursion)    |
-| 🔗 LinkedLists | [Code](./src/LinkedLists) | [Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists) |
+Delve into the projects, each with its own challenges and learnings:
 
-Each folder contains a detailed `README.md` describing the specific project.
+| Project Name   | Source Code                    | Assignment Link                                                                   |
+| -------------- | ------------------------------ | --------------------------------------------------------------------------------- |
+| 🔄 Recursion   | [View Code](./src/Recursion)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)    |
+| 🔗 LinkedLists | [View Code](./src/LinkedLists) | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists) |
 
-## 🚀 Getting Started
+## 🚀 Quickstart
 
-To get started with any project:
+1. To run these projects locally:
 
-1. Clone the repository.
-2. Navigate to the project folder of interest.
-3. Read the `README.md` in the project folder for specific instructions on running the project.
+```
+git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
+```
+
+3. After cloning, install the dependencies at the root of the repository:
+
+```
+npm i
+```
+
+3. Then, feel free to navigate to each project's directory to explore further.
+
+## 🔧 Development Tools
+
+To maintain high code quality, this repository uses:
+
+- **Testing**: `npm test` - Runs Jest for all unit tests.
+- **Linting**: `npm run lint` - Lints the codebase with ESLint.
+- **Formatting**: `npm run format` - Formats code using Prettier.
+
+## ⚙️ Continuous Integration
+
+GitHub Actions are configured to perform automated checks on pushes and pull requests, running the linter, formatter, and tests as outlined in [node.js.yml](.github/workflows/node.js.yml).
+
+## 📝 How to Contribute
+
+Interested in contributing? Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## 📄 License
 
-This repository is open-source and available under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](LICENSE).
