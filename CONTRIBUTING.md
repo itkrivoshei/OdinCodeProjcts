@@ -13,7 +13,11 @@ Here's how you can make a pull request (PR):
 1. 🍴 Fork the [repo](https://github.com/itkrivoshei/OdinCodeProjcts).
 2. ✏️ Make your changes in a new branch.
 3. ✅ If you've added code, add tests to ensure it works as expected.
-4. ✔️ Ensure your code adheres to the existing style.
+4. ✔️ Ensure your code adheres to the existing style. Before submitting, please run the following commands to ensure formatting, linting, and tests are passing:
+    - `npm run format`: Formats code to match the project's coding style.
+    - `npm run lint`: Checks for any linting errors.
+    - `npm run test`: Runs the test suite to ensure no regressions are introduced.
+   Your code must pass all these checks without errors before it can be merged.
 5. 🔄 Create a PR against the `main` branch.
 
 ## 📜 Code of Conduct
