@@ -17,7 +17,7 @@ Here's how you can make a pull request (PR):
     - `npm run format`: Formats code to match the project's coding style.
     - `npm run lint`: Checks for any linting errors.
     - `npm run test`: Runs the test suite to ensure no regressions are introduced.
-   Your code must pass all these checks without errors before it can be merged.
+    - Your code must pass all these checks without errors before it can be merged.
 5. 🔄 Create a PR against the `main` branch.
 
 ## 📜 Code of Conduct
