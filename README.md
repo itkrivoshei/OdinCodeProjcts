@@ -10,6 +10,7 @@ Delve into the projects, each with its own challenges and learnings:
 | -------------- | ------------------------------ | --------------------------------------------------------------------------------- |
 | 🔄 Recursion   | [View Code](./src/Recursion)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)    |
 | 🔗 LinkedLists | [View Code](./src/LinkedLists) | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists) |
+| 🗺️ HashMap     | [View Code](./src/HashMap)     | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap)      |
 
 ## 🚀 Quickstart
 
