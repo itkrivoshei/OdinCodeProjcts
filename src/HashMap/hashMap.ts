@@ -44,9 +44,8 @@ export class HashMap<T> {
     const bucket = this.buckets[index];
     const itemIndex = bucket.findIndex(([k]) => k === key);
 
-    if (itemIndex >= 0) {
-      bucket[itemIndex][1] = value;
-    } else {
+    if (itemIndex >= 0) bucket[itemIndex][1] = value;
+    else {
       bucket.push([key, value]);
       this.elementsCount++;
       this.resizeIfNeeded();
@@ -57,6 +56,7 @@ export class HashMap<T> {
     const index = this.hash(key);
     const bucket = this.buckets[index];
     const foundEntry = bucket.find(([k]) => k === key);
+
     return foundEntry ? foundEntry[1] : null;
   }
 
@@ -74,6 +74,7 @@ export class HashMap<T> {
     if (itemIndex >= 0) {
       bucket.splice(itemIndex, 1);
       this.elementsCount--;
+
       return true;
     }
 
