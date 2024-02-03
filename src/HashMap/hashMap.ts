@@ -12,12 +12,14 @@ export class HashMap<T> {
       (hash, char) => hash + char.charCodeAt(0),
       0
     );
+
     return hashCode % this.bucketsSize;
   }
 
   private resizeIfNeeded(): void {
     const loadFactorExceeded =
       this.elementsCount / this.bucketsSize >= this.loadFactor;
+
     if (!loadFactorExceeded) return;
 
     this.resize();
