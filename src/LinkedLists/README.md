@@ -36,7 +36,7 @@ The project includes a `LinkedList` class with various methods. Tests for these 
 | `insertAt` | ➕ Inserts a node at the given index.   | `(value: T, index: number)` | `void`            |
 | `removeAt` | ➖ Removes the node at the given index. | `(index: number)`           | `void`            |
 
-## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#project-solution)
+## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists)
 
 The project involves implementing a `LinkedList` and `Node` class with methods to manipulate the linked list data structure as described in the table above.
 
