@@ -86,18 +86,18 @@ export class BalancedBST<T extends number> {
   }
 }
 
-const prettyPrint = <T>(
-  node: TreeNode<T> | null,
-  prefix = '',
-  isLeft = true
-) => {
-  if (node === null) return;
+// const prettyPrint = <T>(
+//   node: TreeNode<T> | null,
+//   prefix = '',
+//   isLeft = true
+// ) => {
+//   if (node === null) return;
 
-  if (node.right !== null)
-    prettyPrint(node.right, `${prefix}${isLeft ? '│   ' : '    '}`, false);
+//   if (node.right !== null)
+//     prettyPrint(node.right, `${prefix}${isLeft ? '│   ' : '    '}`, false);
 
-  console.log(`${prefix}${isLeft ? '└── ' : '┌── '}${node.value}`);
+//   console.log(`${prefix}${isLeft ? '└── ' : '┌── '}${node.value}`);
 
-  if (node.left !== null)
-    prettyPrint(node.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
-};
+//   if (node.left !== null)
+//     prettyPrint(node.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
+// };
