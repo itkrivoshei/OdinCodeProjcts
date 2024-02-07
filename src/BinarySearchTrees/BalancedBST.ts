@@ -84,6 +84,129 @@ export class BalancedBST<T extends number> {
 
     return current;
   }
+
+  public find(value: T): TreeNode<T> | null {
+    return this.findRecursive(this.root, value);
+  }
+
+  private findRecursive(
+    node: TreeNode<T> | null,
+    value: T
+  ): TreeNode<T> | null {
+    if (node === null || node.value === value) return node;
+    else if (value < node.value) return this.findRecursive(node.left, value);
+    else return this.findRecursive(node.right, value);
+  }
+
+  public levelOrder(callback?: (node: TreeNode<T>) => void): T[] {
+    const values: T[] = [];
+
+    if (!this.root) return values;
+
+    const queue: TreeNode<T>[] = [this.root];
+
+    while (queue.length > 0) {
+      const node = queue.shift();
+
+      if (node) {
+        callback && callback(node);
+        values.push(node.value);
+
+        if (node.left) queue.push(node.left);
+
+        if (node.right) queue.push(node.right);
+      }
+    }
+
+    return values;
+  }
+
+  private depthFirstTraversals(
+    type: 'inOrder' | 'preOrder' | 'postOrder',
+    node: TreeNode<T> | null,
+    callback?: (node: TreeNode<T>) => void
+  ): T[] {
+    const values: T[] = [];
+
+    if (!node) return values;
+
+    if (type === 'preOrder') callback && callback(node);
+
+    this.depthFirstTraversals(type, node.left, callback).forEach((val) =>
+      values.push(val)
+    );
+
+    if (type === 'inOrder') callback && callback(node);
+
+    this.depthFirstTraversals(type, node.right, callback).forEach((val) =>
+      values.push(val)
+    );
+
+    if (type === 'postOrder') callback && callback(node);
+
+    return values;
+  }
+
+  public inOrder(callback?: (node: TreeNode<T>) => void): T[] {
+    return this.depthFirstTraversals('inOrder', this.root, callback);
+  }
+
+  public preOrder(callback?: (node: TreeNode<T>) => void): T[] {
+    return this.depthFirstTraversals('preOrder', this.root, callback);
+  }
+
+  public postOrder(callback?: (node: TreeNode<T>) => void): T[] {
+    return this.depthFirstTraversals('postOrder', this.root, callback);
+  }
+
+  public height(node: TreeNode<T> | null): number {
+    if (node === null) return -1;
+
+    return 1 + Math.max(this.height(node.left), this.height(node.right));
+  }
+
+  public depth(node: TreeNode<T> | null): number {
+    let depth = -1;
+    let current = this.root;
+
+    while (current !== null) {
+      depth++;
+      if (node === current) break;
+
+      current =
+        node !== null && node.value < current.value
+          ? current.left
+          : current.right;
+    }
+
+    return depth;
+  }
+
+  public isBalanced(): boolean {
+    return this.checkBalance(this.root) !== -1;
+  }
+
+  private checkBalance(node: TreeNode<T> | null): number {
+    if (node === null) return 0;
+
+    const leftHeight = this.checkBalance(node.left);
+
+    if (leftHeight === -1) return -1;
+
+    const rightHeight = this.checkBalance(node.right);
+
+    if (rightHeight === -1) return -1;
+
+    if (Math.abs(leftHeight - rightHeight) > 1) return -1;
+
+    return Math.max(leftHeight, rightHeight) + 1;
+  }
+
+  public rebalance(): void {
+    const values = this.inOrder();
+
+    this.buildTree(values);
+  }
 }
 
 // const prettyPrint = <T>(
