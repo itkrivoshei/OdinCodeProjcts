@@ -1,4 +1,4 @@
-import { BalancedBST } from './balancedBST';
+import { BalancedBST, prettyPrint } from './balancedBST';
 
 function generateRandomArray(size: number, max: number): number[] {
   const arr = new Array(size);
@@ -21,6 +21,9 @@ function main(): void {
 
   console.log('Is balanced:', bst.isBalanced());
 
+  console.log('Initial tree structure:');
+  prettyPrint(bst.testRoot);
+
   printTreeOrders(bst);
 
   bst.insert(101);
@@ -33,6 +36,9 @@ function main(): void {
   bst.rebalance();
 
   console.log('Is balanced after rebalancing:', bst.isBalanced());
+  console.log('Tree structure after rebalancing:');
+
+  prettyPrint(bst.testRoot);
 
   printTreeOrders(bst);
 }
