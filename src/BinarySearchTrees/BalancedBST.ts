@@ -93,7 +93,7 @@ export class BalancedBST<T extends number> {
     else return this.findRecursive(node.right, value);
   }
 
-  public levelOrder(callback?: (node: TreeNode<T>) => void): T[] {
+  public levelOrderIterative(callback?: (node: TreeNode<T>) => void): T[] {
     const values: T[] = [];
 
     if (!this.root) return values;
@@ -104,14 +104,37 @@ export class BalancedBST<T extends number> {
       const node = queue.shift();
 
       if (node) {
-        callback && callback(node);
+        if (callback) callback(node);
         values.push(node.value);
 
         if (node.left) queue.push(node.left);
-
         if (node.right) queue.push(node.right);
       }
     }
+
+    return values;
+  }
+
+  public levelOrderRecursive(callback?: (node: TreeNode<T>) => void): T[] {
+    const values: T[] = [];
+
+    const processLevel = (nodes: TreeNode<T>[], level: number) => {
+      if (nodes.length === 0) return;
+
+      const nextLevelNodes: TreeNode<T>[] = [];
+
+      nodes.forEach((node) => {
+        if (callback) callback(node);
+        values.push(node.value);
+
+        if (node.left) nextLevelNodes.push(node.left);
+        if (node.right) nextLevelNodes.push(node.right);
+      });
+
+      processLevel(nextLevelNodes, level + 1);
+    };
+
+    if (this.root) processLevel([this.root], 0);
 
     return values;
   }
