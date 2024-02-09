@@ -1,9 +1,4 @@
-class TreeNode<T> {
-  public left: TreeNode<T> | null = null;
-  public right: TreeNode<T> | null = null;
-
-  constructor(public value: T) {}
-}
+import { TreeNode } from './TreeNode';
 
 export class BalancedBST<T extends number> {
   private root: TreeNode<T> | null = null;
@@ -128,21 +123,26 @@ export class BalancedBST<T extends number> {
   ): T[] {
     const values: T[] = [];
 
-    if (!node) return values;
+    if (node === null) return values;
 
-    if (type === 'preOrder') callback && callback(node);
+    if (type === 'preOrder') {
+      callback && callback(node);
+      values.push(node.value);
+    }
 
-    this.depthFirstTraversals(type, node.left, callback).forEach((val) =>
-      values.push(val)
-    );
+    values.push(...this.depthFirstTraversals(type, node.left, callback));
 
-    if (type === 'inOrder') callback && callback(node);
+    if (type === 'inOrder') {
+      callback && callback(node);
+      values.push(node.value);
+    }
 
-    this.depthFirstTraversals(type, node.right, callback).forEach((val) =>
-      values.push(val)
-    );
+    values.push(...this.depthFirstTraversals(type, node.right, callback));
 
-    if (type === 'postOrder') callback && callback(node);
+    if (type === 'postOrder') {
+      callback && callback(node);
+      values.push(node.value);
+    }
 
     return values;
   }
@@ -208,19 +208,3 @@ export class BalancedBST<T extends number> {
     this.buildTree(values);
   }
 }
-
-export const prettyPrint = <T>(
-  node: TreeNode<T> | null,
-  prefix = '',
-  isLeft = true
-) => {
-  if (node === null) return;
-
-  if (node.right !== null)
-    prettyPrint(node.right, `${prefix}${isLeft ? '│   ' : '    '}`, false);
-
-  console.log(`${prefix}${isLeft ? '└── ' : '┌── '}${node.value}`);
-
-  if (node.left !== null)
-    prettyPrint(node.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
-};
