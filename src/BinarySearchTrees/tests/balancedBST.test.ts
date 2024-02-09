@@ -1,4 +1,4 @@
-import { BalancedBST } from '../balancedBST';
+import { BalancedBST } from '../BalancedBST';
 
 describe('BalancedBST', () => {
   let bst: BalancedBST<number>;
