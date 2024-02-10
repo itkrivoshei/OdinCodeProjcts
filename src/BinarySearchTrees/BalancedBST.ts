@@ -105,6 +105,7 @@ export class BalancedBST<T extends number> {
 
       if (node) {
         if (callback) callback(node);
+
         values.push(node.value);
 
         if (node.left) queue.push(node.left);
