@@ -10,7 +10,7 @@ function generateRandomArray(size: number, max: number): number[] {
 }
 
 function printTreeOrders<T extends number>(bst: BalancedBST<T>): void {
-  console.log('Level order:', bst.levelOrder());
+  console.log('Level order:', bst.levelOrderRecursive());
   console.log('In-order:', bst.inOrder());
   console.log('Pre-order:', bst.preOrder());
   console.log('Post-order:', bst.postOrder());
