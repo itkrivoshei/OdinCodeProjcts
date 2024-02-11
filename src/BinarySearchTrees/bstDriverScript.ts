@@ -18,7 +18,7 @@ function printTreeOrders<T extends number>(bst: BalancedBST<T>): void {
 
 function main(): void {
   const randomNumbers = generateRandomArray(10, 100);
-  let bst = new BalancedBST(randomNumbers);
+  const bst = new BalancedBST(randomNumbers);
 
   console.log('Is balanced:', bst.isBalanced());
 
