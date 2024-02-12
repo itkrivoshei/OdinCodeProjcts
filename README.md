@@ -6,11 +6,12 @@ Welcome to the OdinCodeProjects repository, featuring various coding projects I'
 
 Delve into the projects, each with its own challenges and learnings:
 
-| Project Name   | Source Code                    | Assignment Link                                                                   |
-| -------------- | ------------------------------ | --------------------------------------------------------------------------------- |
-| 🔄 Recursion   | [View Code](./src/Recursion)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)    |
-| 🔗 LinkedLists | [View Code](./src/LinkedLists) | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists) |
-| 🗺️ HashMap     | [View Code](./src/HashMap)     | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap)      |
+| Project Name           | Source Code                          | Assignment Link                                                                                     |
+| ---------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| 🔄 Recursion           | [View Code](./src/Recursion)         | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)                      |
+| 🔗 LinkedLists         | [View Code](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)        |
+| 🗺️ HashMap             | [View Code](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)             |
+| 🌳 Binary Search Trees | [View Code](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment) |
 
 ## 🚀 Quickstart
 
