@@ -5,15 +5,16 @@ This project is part of the curriculum from [The Odin Project](https://github.co
 ## 🚀 Quickstart
 
 1. Clone the repository:
-   ```
+   ```sh
    git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
    ```
 2. Install dependencies at the root of the repository:
-   ```
+   ````sh
    npm i
-   ```
+   ```sh
+   ````
 3. Run tests for the HashMap project:
-   ```
+   ```sh
    npm test src/HashMap/tests/hashMap
    ```
 
