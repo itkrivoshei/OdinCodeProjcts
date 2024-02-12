@@ -7,20 +7,21 @@ This project, part of the curriculum from [The Odin Project](https://github.com/
 To get started with the project, follow these steps:
 
 1. **Clone the repository:**
-   ```
+   ```sh
    git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
    ```
 2. **Install dependencies** at the root of the repository:
-   ```
+   ```sh
    npm i
    ```
 3. **Run tests** for the BinarySearchTrees project:
-   ```
+   ````sh
    npm test src/BinarySearchTrees/tests/balancedBST
-   ```
+   ```sh
+   ````
 4. **Explore the project:**
    Use [`bstDriverScript.ts`](bstDriverScript.ts) to test the BST's functionality or to simulate different scenarios and BST operations:
-   ```
+   ```sh
    ts-node src/BinarySearchTrees/bstDriverScript
    ```
 
