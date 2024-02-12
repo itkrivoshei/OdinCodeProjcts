@@ -1,6 +1,6 @@
 # 🔗 LinkedList Project
 
-This project is part of the [JavaScript course](https://www.theodinproject.com/lessons/javascript-linked-lists) from The Odin Project, focusing on creating a linked list data structure in TypeScript.
+This project is part of the course from [The Odin Project](https://github.com/TheOdinProject), focusing on creating a linked list data structure in TypeScript.
 
 ## 🚀 Quickstart
 
@@ -14,7 +14,7 @@ This project is part of the [JavaScript course](https://www.theodinproject.com/l
    ```
 3. Run tests for the LinkedList project:
    ```
-   npm test src/LinkedLists/tests/linkedList.test.ts
+   npm test src/LinkedLists/tests/linkedList
    ```
 
 ## 🧬 Code and Test Overview
@@ -36,7 +36,7 @@ The project includes a `LinkedList` class with various methods. Tests for these 
 | `insertAt` | ➕ Inserts a node at the given index.   | `(value: T, index: number)` | `void`            |
 | `removeAt` | ➖ Removes the node at the given index. | `(index: number)`           | `void`            |
 
-## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists)
+## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)
 
 The project involves implementing a `LinkedList` and `Node` class with methods to manipulate the linked list data structure as described in the table above.
 
