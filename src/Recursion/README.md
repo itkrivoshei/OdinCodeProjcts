@@ -18,7 +18,7 @@ This project is a part of the curriculum for [The Odin Project](https://www.theo
 
 3. To run specific tests for the recursion project, use the npm test command followed by the path to the test file. For example:
    ```
-   npm test src/Recursion/tests/fibs.test.ts
+   npm test src/Recursion/tests/fibs
    ```
 
 ## 🧬 Function Implementations
