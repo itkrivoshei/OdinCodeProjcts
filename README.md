@@ -17,13 +17,13 @@ Delve into the projects, each with its own challenges and learnings:
 
 1. To run these projects locally:
 
-```
+```sh
 git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
 ```
 
 3. After cloning, install the dependencies at the root of the repository:
 
-```
+```sh
 npm i
 ```
 
@@ -33,10 +33,19 @@ npm i
 
 To maintain high code quality, this repository uses:
 
-- **Testing**: Jest for unit tests ([Jest Config](.config/jest.config.json)). Run with `npm test`.
-- **Linting**: ESLint for code analysis ([ESLint Config](.config/.eslintrc.json)). Run with `npm run lint`.
-- **Formatting**: Prettier for code formatting ([Prettier Config](.config/.prettierrc)). Run with `npm run format`.
-- **TypeScript Config**: Ensuring type safety ([TypeScript Config](tsconfig.json)).
+- 🧪 **Testing**: Jest for unit tests. See [Jest Config](.config/jest.config.json).
+  ```sh
+  npm test
+  ```
+- 🕵️ **Linting**: ESLint for code analysis. See [ESLint Config](.config/.eslintrc.json).
+  ```sh
+  npm run lint
+  ```
+- ✨ **Formatting**: Prettier for code formatting. See [Prettier Config](.config/.prettierrc).
+  ```sh
+  npm run format
+  ```
+- 🛠️ **TypeScript Config**: Ensuring type safety. See [TypeScript Config](tsconfig.json).
 
 ## ⚙️ Continuous Integration
 
