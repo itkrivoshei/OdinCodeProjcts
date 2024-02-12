@@ -1,6 +1,6 @@
 # 🧑‍💻 OdinCodeProjects
 
-Welcome to the OdinCodeProjects repository, featuring various coding projects I've developed from [The Odin Project](https://www.theodinproject.com). These projects are focused on different concepts in JavaScript/TypeScript.
+Welcome to the OdinCodeProjects repository, featuring various coding projects I've developed from [The Odin Project](https://github.com/TheOdinProject). These projects are focused on different concepts in JavaScript/TypeScript.
 
 ## 🗂 Project Directory
 
