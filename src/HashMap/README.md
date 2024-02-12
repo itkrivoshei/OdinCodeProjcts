@@ -14,7 +14,7 @@ This project is part of the curriculum from [The Odin Project](https://github.co
    ```
 3. Run tests for the HashMap project:
    ```
-   npm test src/HashMap/tests/hashMap.test.ts
+   npm test src/HashMap/tests/hashMap
    ```
 
 ## 🧬 Code and Test Overview
@@ -33,7 +33,7 @@ The project includes a `HashMap` class with various methods to manipulate the ha
 | `values`  | 📤 Returns all values.            | `()`                      | `T[]`                |
 | `entries` | 📜 Returns all entries.           | `()`                      | `Array<[string, T]>` |
 
-## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-hashmap)
+## [📝 Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)
 
 The assignment involves implementing the `HashMap` and `HashSet` classes with methods to handle basic operations such as adding, retrieving, checking, and deleting entries in the hash map.
 
