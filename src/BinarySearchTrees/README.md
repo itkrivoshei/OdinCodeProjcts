@@ -15,9 +15,8 @@ To get started with the project, follow these steps:
    npm i
    ```
 3. **Run tests** for the BinarySearchTrees project:
-   ````sh
+   ```sh
    npm test src/BinarySearchTrees/tests/balancedBST
-   ```
    ```
 4. **Explore the project:**
    Use [`bstDriverScript.ts`](bstDriverScript.ts) to test the BST's functionality or to simulate different scenarios and BST operations:
