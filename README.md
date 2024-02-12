@@ -45,7 +45,7 @@ To maintain high code quality, this repository uses:
   ```sh
   npm run format
   ```
-- 🛠️ **TypeScript Config**: Ensuring type safety. See [TypeScript Config](tsconfig.json).
+- 🛠️ **TypeScript Config**: Ensuring type safety. See [TypeScript Config](.config/tsconfig.json).
 
 ## ⚙️ Continuous Integration
 
