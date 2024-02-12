@@ -5,15 +5,16 @@ This project is part of the course from [The Odin Project](https://github.com/Th
 ## 🚀 Quickstart
 
 1. Clone the repository:
-   ```
+   ```sh
    git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
    ```
 2. Install dependencies at the root of the repository:
-   ```
+   ````sh
    npm i
-   ```
+   ```sh
+   ````
 3. Run tests for the LinkedList project:
-   ```
+   ```sh
    npm test src/LinkedLists/tests/linkedList
    ```
 
