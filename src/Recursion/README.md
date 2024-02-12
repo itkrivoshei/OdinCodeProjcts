@@ -6,18 +6,18 @@ This project is a part of the curriculum for [The Odin Project](https://www.theo
 
 1. Clone the repository:
 
-   ```
+   ```sh
    git clone https://github.com/itkrivoshei/OdinCodeProjcts.git
    ```
 
 2. Install the dependencies at the root of the repository:
 
-   ```
+   ```sh
    npm i
    ```
 
 3. To run specific tests for the recursion project, use the npm test command followed by the path to the test file. For example:
-   ```
+   ```sh
    npm test src/Recursion/tests/fibs
    ```
 
