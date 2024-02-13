@@ -1,4 +1,4 @@
-import { knightMoves, Position } from '../knightsTravails';
+import { knightMoves } from '../knightsTravails';
 
 describe('knightMoves', () => {
   it('should find the shortest path for a simple move', () => {
