@@ -8,6 +8,7 @@ Delve into the projects, each with its own challenges and learnings:
 
 | Project Name           | Source Code                             | Assignment Link                                                                                     |
 | ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 🐴 Knights Travails    | [Show Project](./src/KnightsTravails)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-knights-travails#assignment)    |
 | 🌳 Binary Search Trees | [Show Project](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment) |
 | 🗺️ HashMap             | [Show Project](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)             |
 | 🔗 LinkedLists         | [Show Project](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)        |
