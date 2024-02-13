@@ -8,11 +8,11 @@ Delve into the projects, each with its own challenges and learnings:
 
 | Project Name           | Source Code                             | Assignment Link                                                                                     |
 | ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 🐴 Knights Travails    | [Show Project](./src/KnightsTravails)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-knights-travails#assignment)    |
-| 🌳 Binary Search Trees | [Show Project](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment) |
-| 🗺️ HashMap             | [Show Project](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)             |
-| 🔗 LinkedLists         | [Show Project](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)        |
-| 🔄 Recursion           | [Show Project](./src/Recursion)         | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)                      |
+| 🐴 Knights Travails    | [View Project](./src/KnightsTravails)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-knights-travails#assignment)    |
+| 🌳 Binary Search Trees | [View Project](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment) |
+| 🗺️ HashMap             | [View Project](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)             |
+| 🔗 LinkedLists         | [View Project](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)        |
+| 🔄 Recursion           | [View Project](./src/Recursion)         | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)                      |
 
 ## 🚀 Quickstart
 
