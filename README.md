@@ -6,13 +6,14 @@ Welcome to the OdinCodeProjects repository, featuring various coding projects I'
 
 Delve into the projects, each with its own challenges and learnings:
 
-| Project Name           | Source Code                             | Assignment Link                                                                                     |
-| ---------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 🐴 Knights Travails    | [View Project](./src/KnightsTravails)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-knights-travails#assignment)    |
-| 🌳 Binary Search Trees | [View Project](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment) |
-| 🗺️ HashMap             | [View Project](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)             |
-| 🔗 LinkedLists         | [View Project](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)        |
-| 🔄 Recursion           | [View Project](./src/Recursion)         | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)                      |
+| Project Name           | Source Code                             | Assignment Link                                                                                            |
+| ---------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 🧪 Testing Practice    | [View Project](./src/TestingPractice)   | [View Assignment](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice#assignment) |
+| 🐴 Knights Travails    | [View Project](./src/KnightsTravails)   | [View Assignment](https://www.theodinproject.com/lessons/javascript-knights-travails#assignment)           |
+| 🌳 Binary Search Trees | [View Project](./src/BinarySearchTrees) | [View Assignment](https://www.theodinproject.com/lessons/javascript-binary-search-trees#assignment)        |
+| 🗺️ HashMap             | [View Project](./src/HashMap)           | [View Assignment](https://www.theodinproject.com/lessons/javascript-hashmap#assignment)                    |
+| 🔗 LinkedLists         | [View Project](./src/LinkedLists)       | [View Assignment](https://www.theodinproject.com/lessons/javascript-linked-lists#assignment)               |
+| 🔄 Recursion           | [View Project](./src/Recursion)         | [View Assignment](https://www.theodinproject.com/lessons/javascript-recursion)                             |
 
 ## 🚀 Quickstart
 
