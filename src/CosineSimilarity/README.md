@@ -2,7 +2,7 @@
 
 This project implements a C++ program to calculate the cosine similarity between two text inputs. The program tokenizes the input, computes word frequencies, and calculates the cosine similarity score.
 
-Source code for this project can be found [here](https://github.com/itkrivoshei/OdinCodeProjcts/src/CosineSimilarity/CosineSimilarity.cpp).
+Source code for this project can be found [here](https://github.com/itkrivoshei/OdinCodeProjcts/blob/main/src/CosineSimilarity/CosineSimilarity.cpp).
 
 ## 🚀 Quickstart
 
