@@ -6,22 +6,26 @@ Source code for this project can be found [here](https://github.com/itkrivoshei/
 
 ## 🚀 Quickstart
 
-1. Clone the repository:
+1. **Download the source code**:
 
-   ```sh
-   git clone https://github.com/your-repository/CosineSimilarity.git
-   ```
+   - Visit the project repository: [Cosine Similarity Source Code](https://github.com/itkrivoshei/OdinCodeProjcts/blob/main/src/CosineSimilarity/CosineSimilarity.cpp).
+   - Download the `CosineSimilarity.cpp` file or copy the code.
 
-2. Compile the program using `g++`:
-
-   ```sh
-   g++ CosineSimilarity.cpp -o CosineSimilarity
-   ```
-
-3. Run the program:
-   ```sh
-   ./CosineSimilarity
-   ```
+2. **Run the code**:
+   - You can either:
+     - **Compile and run it locally**:
+       - Save the downloaded file as `CosineSimilarity.cpp`.
+       - Open your terminal and compile the program using `g++`:
+         ```sh
+         g++ CosineSimilarity.cpp -o CosineSimilarity
+         ```
+       - Run the compiled program:
+         ```sh
+         ./CosineSimilarity
+         ```
+     - **Use an online compiler**:
+       - Copy the code from the file and paste it into an online C++ compiler, such as [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler).
+       - Run the program directly from the online compiler.
 
 ## 🧬 Code Overview
 
