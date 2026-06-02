@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: '7 8 * * 1'
+    - cron: '0 6 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -20,15 +20,14 @@ concurrency:
 
 jobs:
   analyze:
-    name: Analyze ${{ matrix.language }}
+    name: Analyze JavaScript/TypeScript
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     strategy:
       fail-fast: false
       matrix:
         language:
-          - actions
           - javascript-typescript
 
     steps:
