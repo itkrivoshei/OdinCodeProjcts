@@ -1,13 +1,17 @@
+<div align="center">
+
 # TypeScript Algorithms and Data Structures
 
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/itkrivoshei/typescript-algorithms-data-structures/ci-cd.yml?branch=main&style=flat-square&label=ci%2Fcd&logo=githubactions&logoColor=white)](https://github.com/itkrivoshei/typescript-algorithms-data-structures/actions/workflows/ci-cd.yml)
-[![Playground](https://img.shields.io/badge/playground-GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white)](https://itkrivoshei.github.io/typescript-algorithms-data-structures/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?style=flat-square&logo=typescript&logoColor=white)](package.json)
-[![Jest](https://img.shields.io/badge/Jest-29-c21325?style=flat-square&logo=jest&logoColor=white)](jest.config.js)
-[![Docker](https://img.shields.io/badge/Docker-verification-2496ed?style=flat-square&logo=docker&logoColor=white)](Dockerfile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-
 TypeScript implementations of common algorithms and data structures with Jest tests, linting, formatting checks, a static browser playground, and CI/CD.
+
+[![Playground](https://img.shields.io/badge/playground-GitHub%20Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://itkrivoshei.github.io/typescript-algorithms-data-structures/)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/itkrivoshei/typescript-algorithms-data-structures/ci-cd.yml?branch=main&style=for-the-badge&label=ci%2Fcd&logo=githubactions&logoColor=white)](https://github.com/itkrivoshei/typescript-algorithms-data-structures/actions/workflows/ci-cd.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/itkrivoshei/typescript-algorithms-data-structures/codeql.yml?branch=main&style=for-the-badge&label=codeql&logo=github&logoColor=white)](https://github.com/itkrivoshei/typescript-algorithms-data-structures/actions/workflows/codeql.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](package.json)
+[![Jest](https://img.shields.io/badge/Jest-29-c21325?style=for-the-badge&logo=jest&logoColor=white)](jest.config.js)
+[![License](https://img.shields.io/github/license/itkrivoshei/typescript-algorithms-data-structures?style=for-the-badge)](LICENSE)
+
+</div>
 
 ## Library Surface
 
